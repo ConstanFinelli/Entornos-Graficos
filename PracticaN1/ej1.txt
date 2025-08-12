@@ -1,0 +1,8 @@
+1) HTML es un lenguaje de marcado. Sirve para describir semánticamente documentos e incluso aplicaciones.
+Fue creado en 1990.
+Existen las versiones HTML 3.O, HTML 3.2, HTML 4.01, XHTML 1.O, XHTML 2.0.
+Hoy en día, la versión actual es HTML5
+
+2) Las tecnologías deben ser compatibles con versiones anteriores.
+Las especificaciones y las implementaciones deben coincidir incluso si esto significa cambiar la especificacion en lugar de las implementaciones.
+Las especificaciones deben ser lo suficientemente detalladas como para que las implementaciones interoperabilidad completa sin ingenieria reversa entre si.
