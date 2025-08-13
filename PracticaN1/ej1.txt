@@ -6,3 +6,43 @@ Hoy en día, la versión actual es HTML5
 2) Las tecnologías deben ser compatibles con versiones anteriores.
 Las especificaciones y las implementaciones deben coincidir incluso si esto significa cambiar la especificacion en lugar de las implementaciones.
 Las especificaciones deben ser lo suficientemente detalladas como para que las implementaciones interoperabilidad completa sin ingenieria reversa entre si.
+
+3)Los tags y atributos desaprobados son parte del estándar HTML (lenguaje de marcas hipertextual) cuyo uso ya no es recomendado.
+Una etiqueta o atributo obsoleto es un elemento que está desaconsejado para nuevos desarrollos porque existe una forma más moderna, semántica y accesible de lograr el mismo resultado
+
+4) El DTD (Document Type Declaration) es una etiqueta que se usa antes de la etiqueta principal <html> que es la forma de que el navegador pueda saber que
+estamos utilizando la especificación del HTML 5.
+DTD's contemplados en HTML 4.01
+HTML 2.0
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+HTML 3.2
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+HTML 4.01: Strict, Transitional y Frameset
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+XHTML 1.0: Strict, Transitional y Frameset
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+XHTML 1.1
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+MathML 1.01
+<!DOCTYPE math SYSTEM "http://www.w3.org/Math/DTD/mathml1/mathml.dtd">
+MathML 2.0
+<!DOCTYPE math PUBLIC "-//W3C//DTD MathML 2.0//EN" "http://www.w3.org/TR/MathML2/dtd/mathml2.dtd">
+XHTML + MathML + SVG
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg.dtd">
+SVG 1.0
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+SVG 1.1: Full, Basic y Tiny
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Basic//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-basic.dtd">
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1 Tiny//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11-tiny.dtd">
+
+5)El HTML permite a los autores especificar metadatos -- información sobre un documento más que contenido del propio documento -- de diferentes de maneras.
+En general, la especificación de metadatos implica dos pasos:
+1- Declaración de una propiedad y de un valor para esta propiedad. Esto puede hacerse de dos maneras:
+        - Desde dentro de un documento, por medio del elemento META.
+        - Desde fuera de un documento, vinculando los metadatos por medio del elemento LINK (véase la sección sobre tipos de vínculos).
+2- Referencia a un perfil en el que se definen la propiedad y sus valores legales. Para designar un perfil, se usa el atributo profile del elemento HEAD.

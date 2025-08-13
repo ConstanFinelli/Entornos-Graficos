@@ -1,0 +1,53 @@
+2.a)
+<!-- Código controlado el día 12/08/2009 ->
+Es un comentario que se puede colocar en cualquier parte del documento.
+
+b) 
+<div id="bloque1">Contenido del bloque1</div>
+Se puede colocar en cualquier parte del <body>, sirve a modo de contenedor (en este caso de texto plano) y tiene el atributo ID, que sirve para referirse a el por otras etiquetas o CSS o JS, etc.
+
+c) 
+<img src="" alt="lugar imagen" id="im1" name="im1" width="32" height="32" longdesc="detalles.htm" />
+Se puede colocar en cualquier parte del <body>, sirve para colocar imagenes.
+src es la dirección de la imagen, alt sirve como descripcion por si la imagen no carga, id para referirse al elemento
+width y height son para los tamaños (ancho y altura respectivamente), longdesc especifica la URL de un archivo de texto o HTML que contiene una descripción extensa de la imagen.
+
+d)
+<meta name="keywords" lang="es" content="casa, compra, venta, alquiler " />
+<meta http-equiv="expires" content="16-Sep-2019 7:49 PM" />
+Se deben colocar en <head> y sirve para incluir metadatos en el documento.
+name sirve para identificar el metadato con su valor, lang es para determinar el lenguaje, y content es el valor del metadato.
+http-equiv permite proporcionar instrucciones de procesamiento para el navegador como si la respuesta que devolvió el documento incluyera ciertos encabezados HTTP.
+
+e)
+<a href="http://www.e-style.com.ar/resumen.html" type="text/html" hreflang="es" charset="utf-8"
+rel="help">Resumen HTML </a>
+Se puede colocar dentro del <body>, sirve para incluir un enlace a texto.
+href es la dirección del enlace, type especifica hacia que tipo de archivo redirige, hreflang sirve para especificar el idioma del enlace.
+charset especifica el conjunto de caracteres a utilizar, rel especifica la relación entre el documento actual y el recurso vinculado.
+
+f)
+<table width="200" summary="Datos correspondientes al ejercicio vencido">
+<caption align="top"> Título </caption>
+<tr>
+<th scope="col">&nbsp;</th>
+<th scope="col">A</th>
+<th scope="col">B</th>
+<th scope="col">C</th>
+</tr>
+<tr>
+<th scope="row">1º</th>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<th scope="row">2º</th>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</table>
+Se puede colocar en el <body>, sirve para crear una tabla.
+width sirve para especificar el tamaño deseado, summary es un texto alternativo que resume el contenido de la tabla.
+align sirve para alinear el texto. scope sirve para especificar si es columna o fila.

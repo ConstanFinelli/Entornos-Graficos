@@ -1,0 +1,45 @@
+3.a)
+El primero es un enlace hacia google.com.ar 
+El segundo a diferencia del primero, te manda a una nueva pestaña
+El tercero a diferencia del priemro, especifica datos sobre la página referida
+El cuarto no te manda a ningún lado pero se puede clickear
+El quinto te manda hacia la etiqueta que tenga el id 'arriba'
+El sexto es la etiqueta para ser enviado en el quinto y no hace nada mas.
+
+b)
+El primero es una parrafo que contiene una imagen y seguido un texto con un enlace
+El segundo es un parrafo que contiene una imagen con enlace y un texto
+El tercero es un parrafo que contiene una imagen y texto con enlace ambas
+El cuarto tiene un parrafo que contiene una imagen con un enlace y un texto con otro enlace
+
+c) Son todas listas
+El primero es una lista sin orden, se muestra con un punto cada item
+La segunda es una lista ordenada, se muestra con un numero cada item 
+El tercero son muchas listas ordenadas y ajustadas manualmente para ser una, a diferencia del segundo hay un salto de linea de por medio de cada item
+El cuarto es una parrafo hecho a modo de lista ordenada, se ve igual que la segunda
+
+d)Son dos tablas
+La segunda tiene centrado los titulos de las columnas y en negrita
+
+e)Son dos tablas
+Se ven iguales pero incluyen el título de la tabla de formas distintas
+
+f)Son dos tablas
+La primera tiene una columna que abarca dos espacios y la segunda una fila que abarca dos espacios.
+
+g)Son dos tablas
+Con diferentes formas de mostrar los bordes y de hacer las filas y columnas.
+
+h)Son tres formularios
+El primero tiene valores predeterminados en sus campos
+El segundo no tiene la contraseña oculta al tippear
+El botón del tercero resetea el formulario en vez de submit
+
+i) Son dos botones
+El primero tiene una imagen dentro y letra en negrita.
+
+j)Son dos input de tipo radio
+El primero solo se puede seleccionar uno y en el segundo los dos porque juega con el atributo name
+
+k)Son dos grupos de opciones
+El primero es un dropdown menu y el segundo es una listado con barra de desplazamiento
